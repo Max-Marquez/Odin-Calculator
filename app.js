@@ -77,7 +77,7 @@ function operate() {
   }
   //ADD snarky message if dividing by 0
   if (previousValue == "Infinity") {
-    previousValue = "to INFINITY and beyond";
+    previousValue = "Infinity.. stones";
   } else {
     previousValue = previousValue.toString();
     currentValue = previousValue.toString();
